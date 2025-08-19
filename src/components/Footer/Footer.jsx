@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () =>{
 
@@ -14,8 +16,9 @@ const Footer = () =>{
               href="https://github.com/Cristian-Chiorescu"
               target="_blank"
               aria-label="GitHub"
+              rel="noopener noreferrer"
             >
-              <i className={styles["fab fa-github"]}></i>
+              <FontAwesomeIcon icon={faGithub}/>
             </a>
           </li>
           <li>
@@ -23,8 +26,9 @@ const Footer = () =>{
               href="https://www.linkedin.com/in/cristianchiorescu/"
               target="_blank"
               aria-label="LinkedIn"
+            rel="noopener noreferrer"
             >
-              <i className={styles["fab fa-linkedin"]}></i>
+              <FontAwesomeIcon icon={faLinkedin}/>
             </a>
           </li>
         </ul>

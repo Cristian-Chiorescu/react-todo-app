@@ -1,0 +1,27 @@
+.outerContainer {
+  background-color: #121827;
+
+  background-image: radial-gradient(
+      circle at 20% 80%,
+      rgba(23, 107, 135, 0.4),
+      transparent 30%
+    ),
+    radial-gradient(circle at 80% 30%, rgba(131, 56, 236, 0.3), transparent 35%),
+    radial-gradient(
+      ellipse at 50% 60%,
+      rgba(67, 233, 185, 0.2),
+      transparent 45%
+    );
+  background-attachment: fixed;
+}
+
+.addTaskContainer {
+  text-align: center;
+  padding: 0;
+}
+
+.divider {
+  height: 0;
+  width: 70%;
+  margin: 0 auto 0 auto;
+}

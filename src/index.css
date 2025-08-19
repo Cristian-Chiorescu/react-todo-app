@@ -4,6 +4,12 @@
   --background-color: #f8f8f8;
   --accent-color: linear-gradient(140deg, #065143, #9ad4d6);
 }
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 /* --- css reset --- */
 
 *,
@@ -49,12 +55,19 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+main {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  margin-bottom: 10rem;
+}
+
 /*font setup*/
 
 h1 {
-  /*width: 100%;
-  padding-top: 2rem;*/
+  width: 100%;
+  padding-top: 2rem;
   margin: auto;
   color: #222222;
-  /*color: #f0f0f0d8;*/
+  color: #f0f0f0d8;
 }
