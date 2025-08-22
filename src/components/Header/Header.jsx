@@ -11,7 +11,7 @@ const Header = () => {
       </div>
       <div className={styles["portfolio-link"]}>
         <a
-          href="index.html"
+          href="https://cristianchiorescu.com/"
           className={styles["back-to-portfolio-link"]}
           rel="noopener noreferrer"
         >
